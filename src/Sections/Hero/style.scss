@@ -6,22 +6,4 @@
 	background-image: url(//unsplash.it/1300/1200);
 	background-size: cover;
 	background-repeat: no-repeat;
-
-	@extend .vh-100, .d-flex, .justify-content-center, .align-items-center
-}
-
-.has-search .form-control {
-	padding-left: 2.375rem;
-}
-
-.has-search .form-control-feedback {
-	position: absolute;
-	z-index: 2;
-	display: block;
-	width: 2.375rem;
-	height: 2.375rem;
-	line-height: 2.375rem;
-	text-align: center;
-	pointer-events: none;
-	color: #aaa;
 }

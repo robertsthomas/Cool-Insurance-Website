@@ -1,4 +1,7 @@
 import React from 'react'
+
+import GetQuote from "../GetQuote/GetQuote";
+
 import './style.scss'
 
 const Nav = () => (
@@ -15,8 +18,16 @@ const Nav = () => (
 				<a class="nav-item nav-link" href="#">Health Insurance</a>
 				<a class="nav-item nav-link" href="#">Life Insurance</a>
 			</div>
-			<button class="btn btn-outline-success" type="button">Main button</button>
-    <button class="btn btn-sm btn-outline-secondary" type="button">Smaller button</button>
+			<div className="input-big d-none d-lg-block w-25">
+				<div className="input-group">
+					<input type="text" className='rounded-0 form-control' placeholder='Zip Code' />
+					<div className="input-group-append">
+						<button className="btn btn-secondary rounded-0" type='button'>
+							Get Your Quote
+				</button>
+					</div>
+				</div>
+			</div>
 		</div>
 	</nav>
 )
