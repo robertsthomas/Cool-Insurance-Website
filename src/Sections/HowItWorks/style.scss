@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+@import '~bootstrap/scss/bootstrap';
+
+h1 {
+	font-family: 'Slabo 27px', serif;
+}
+
+.info {
+	@extend .mt-3;
+	h4{
+		@extend .text-center
+	}
+	p{
+		@extend .text-justify
+	}
+}

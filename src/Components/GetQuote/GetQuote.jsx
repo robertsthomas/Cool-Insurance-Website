@@ -1,7 +1,7 @@
 import React from 'react'
 
 const GetQuote = () => (
-	<div className="zipcode mx-auto d-flex justify-content-center">
+	<div className="zipcode mx-auto d-flex justify-content-center mt-lg-5">
 
 		<div className="input-big d-none d-lg-block w-25">
 			<div className="input-group">

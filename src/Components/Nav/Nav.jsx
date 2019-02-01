@@ -4,9 +4,16 @@ import GetQuote from "../GetQuote/GetQuote";
 
 import './style.scss'
 
+
+// TODO: Consolidate Navbar
 const Nav = () => (
 	<nav class="navbar navbar-expand-lg navbar-light bg-light bg-transparent position-absolute w-100">
-		<a class="navbar-brand" href="#">Quotable</a>
+		<a class="navbar-brand" href="#">
+			Quotable&nbsp;
+		<span style={{color: '#90a4ae'}}>
+				<i class="far fa-comment-alt"></i>
+			</span>
+		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
